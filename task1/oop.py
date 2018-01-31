@@ -26,7 +26,7 @@ class Employee(Human):
         super(Employee,self).__init__(name)
         self.salary=salary
     def work(self):
-        print("njggfgfghjk")
+        print("welcome")
 
 class Employee2(Employee):
     def __init__(self,name,salary):
