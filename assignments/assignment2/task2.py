@@ -31,7 +31,7 @@ class Person:
     @healthRate.setter
     def healthRate(self,healthRate):
         
-	if healthRate >=0 && healthRate <=100 :
+	if healthRate >=0 and healthRate <=100 :
 		self.__healthRate = healthRate
 	
 	else: 
